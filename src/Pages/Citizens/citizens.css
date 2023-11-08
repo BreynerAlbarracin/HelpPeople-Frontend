@@ -1,0 +1,69 @@
+.citizens-container {
+    width: 100%;
+}
+
+.header-continer {
+    width: 95%;
+    margin: auto;
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.table-citizens-container {
+    max-height: 75vh;
+    overflow-y: auto;
+}
+
+table {
+    width: 95%;
+    margin: auto;
+}
+
+th {
+    background-color: #333333;
+    color: #ffffff;
+    padding: 0.5rem;
+}
+
+td {
+    padding: 0.1rem 0.3rem 1rem 0.3rem;
+}
+
+.table-citizens-container th:nth-child(1),
+.table-citizens-container td:nth-child(1),
+.table-citizens-container th:nth-child(5),
+.table-citizens-container td:nth-child(5) {
+    width: 15%;
+}
+
+.table-citizens-container th:nth-child(2),
+.table-citizens-container td:nth-child(2),
+.table-citizens-container th:nth-child(3),
+.table-citizens-container td:nth-child(3),
+.table-citizens-container th:nth-child(4),
+.table-citizens-container td:nth-child(4) {
+    width: 10%;
+}
+
+.table-citizens-container th:nth-child(3),
+.table-citizens-container td:nth-child(3) {
+    width: 1%;
+}
+
+.table-citizens-container td:nth-child(7),
+.table-citizens-container td:nth-child(5) {
+    text-align: right;
+}
+
+.table-citizens-container th:nth-child(6),
+.table-citizens-container td:nth-child(6) {
+    text-align: center;
+}
+
+.citizen-flex {
+    display: flex;
+}
+
+.table-citizens-container th:nth-child(9) {
+    background-color: transparent;
+}

@@ -1,0 +1,13 @@
+.inputs-container {
+    margin-bottom: 3rem;
+}
+
+.actions-container {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.actions-container .secondary-button {
+    margin-right: 1rem;
+}
